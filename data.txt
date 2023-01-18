@@ -1,0 +1,26 @@
+@Get()
+@Post('find')
+{
+    "name" : "김건우",
+    "phone" : "01085959869"
+}
+@Post()
+{
+    "name" : "김건우",
+    "phone" : "01085959869",
+    "date" : "2023-01-18",
+    "option" : "부동산",
+    "text" : "부동산 질문입니다",
+    "amount" : 55000
+}
+@Patch('update')
+{
+    "name" : "이제용",
+    "phone" : "01085959869",
+    "date" : "2023-01-18",
+    "option" : "부동산",
+    "text" : "부동산 질문입니다",
+    "amount" : 55000
+}
+@Delete('delete')
+"_id": "63c79e8084ae8d5de0963536",
